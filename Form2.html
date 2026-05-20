@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Form Sederhana</title>
+	<link rel="stylesheet" type="text/css" href="Form2.css">
+</head>
+<body>
+	<div class="container" role="region" aria-labelledby="title">
+		<h1 id="title"> Kontak singkat </h1>
+		
+		<label for="name">name </label>
+		<input id="name" name="name" type="text" placeholder="full name" required>
+		
+		<label for="class">class *</label>
+		<input id="class" name="class" type="text" placeholder="sec 4-elon musk" required>
+		
+		<h1>Age</h1>
+		<label class="container-checkbox"> 10-12 years
+			<input type="checkbox" name="age" value="10-12 years">
+			<span class="checkmark"></span>
+		</label>
+		<label class="container-checkbox"> 13-14 years
+			<input type="checkbox" name="age" value="13-14 years">
+			<span class="checkmark"></span>
+		</label>
+		<label class="container-checkbox"> 15-16 years
+			<input type="checkbox" name="age" value="15-16 years">
+			<span class="checkmark"></span>
+		</label>
+		
+		<h1>Gender</h1>
+		<label class="container-radio">male
+			<input type="radio" name="gender" value="male">
+			<span class="checkmark"></span>
+		</label>
+		<label class="container-radio">female
+			<input type="radio" name="gender" value="female">
+			<span class="checkmark"></span>
+		</label>
+		
+		<h1>level</h1>
+		<label class="container-radio"> SD
+			<input type="radio" name="level" value="SD">
+			<span class="checkmark"></span>
+		</label>
+		<label class="container-radio"> SMP
+			<input type="radio" name="level" value="SMP">
+			<span class="checkmark"></span>
+		</label>
+		<label class="container-radio"> SMA
+			<input type="radio" name="level" value="SMA">
+			<span class="checkmark"></span>
+		</label>
+		
+		<div class="button-group">
+			<button id="okBtn">OK</button>
+			<button id="clearBtn">Clear All</button>
+		</div>
+		
+		<div class="result" id="hasil">
+			data will be shown here
+		</div>
+	</div>
+	
+	<script src="Form2.js"></script>
+</body>
+</html>
